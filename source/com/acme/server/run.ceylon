@@ -1,13 +1,13 @@
-import ceylon.net.http {
+import ceylon.http.common {
     get
 }
-import ceylon.net.http.server {
+import ceylon.http.server {
     newServer,
     startsWith,
     AsynchronousEndpoint,
     Request
 }
-import ceylon.net.http.server.endpoints {
+import ceylon.http.server.endpoints {
     RepositoryEndpoint,
     serveStaticFile
 }
